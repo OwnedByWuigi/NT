@@ -1,0 +1,31 @@
+BUILD: Examining r:\rs_prerelease\shell\themes\themedir\aero_prelim directory for files to compile.
+Building generated files in r:\rs_prerelease\shell\themes\themedir\aero_prelim ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+1>BUILDMSG: Processing r:\rs_prerelease\shell\themes\themedir\aero_prelim
+Elapsed time [0:00:00.047] ********************
+1>
+1>Stop.
+Compiling r:\rs_prerelease\shell\themes\themedir\aero_prelim directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing r:\rs_prerelease\shell\themes\themedir\aero_prelim
+Elapsed time [0:00:00.594] ********************
+1>	packthem /o obj\i386\aero.mst /k .
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>Microsoft (R) Incremental Linker Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>/tmp 
+1>Microsoft (R) Theme Packager (Version 3)
+1>Copyright (C) Microsoft Corp 2000. All rights reserved.
+1>processing container file: .\themes.ini
+1>processing classdata file: Aero\Aero.ini
+1>compiling resources
+1>linking theme dll
+1>Created r:\rs_prerelease\shell\themes\themedir\aero_prelim\obj\i386\aero.mst
+1>Creating the signature succeeded
+1>	( echo. )
+1> 
+1>
+1>Stop.
