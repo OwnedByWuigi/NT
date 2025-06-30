@@ -31,6 +31,7 @@
 #include <ieverp.h>
 #else
 
+#define VER_PRODUCTCYCLEVERSION     "21H2"
 #define VER_PRODUCTMAJORVERSION     10
 #define VER_PRODUCTMINORVERSION     0
 
