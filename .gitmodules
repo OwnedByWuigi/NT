@@ -1,0 +1,3 @@
+[submodule "/workspaces/NT/shell/windows.cloudexpereincehost"]
+	path = /workspaces/NT/shell/windows.cloudexpereincehost
+	url = https://github.com/Endermanch/Windows11OOBE.git
