@@ -1,0 +1,50 @@
+DIRS=           \
+    admin       \
+    base        \
+    amcore      \
+    avcore      \
+    base        \
+    clientcore  \
+    com         \
+    csharp      \
+    debugger    \
+    drivers     \
+    ds          \
+    enduser     \
+    enigma      \
+    inetcore    \
+    inetsrv     \
+    internal    \
+    internalapis\
+    mergedcomponents\
+    mincore     \
+    minio       \
+    minkernel   \
+    multimedia  \
+    ndp         \
+    nethlk      \
+    network     \
+    onecore     \
+    onecoreuap  \
+    pcshell     \
+    printscan   \
+    public      \
+    redist      \
+    rh          \
+    sdk         \
+    sdktools    \
+    secure      \
+    services    \
+    shell       \
+    shellcommon \
+    sql         \
+    termsrv     \
+    tests       \
+    vb          \
+    vctools     \
+    vm          \
+    vsa         \
+    vscommon    \
+    windows     \
+    wlanouterloop\
+    wpf         \
