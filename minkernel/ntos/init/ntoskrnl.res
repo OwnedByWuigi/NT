@@ -1,0 +1,14 @@
+#include <windows.h>
+
+#include <ntverp.h>
+
+#define VER_FILETYPE    VFT_APP
+#define VER_FILESUBTYPE VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR     "NT Kernel & System"
+#define VER_INTERNALNAME_STR2(x)    #x
+#define VER_INTERNALNAME_STR1(x)    VER_INTERNALNAME_STR2(x)
+#define VER_INTERNALNAME_STR        VER_INTERNALNAME_STR1(KERNEL_NAME)
+
+#include "common.ver"
+
+#include "bugcodes.rc"
