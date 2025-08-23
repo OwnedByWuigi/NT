@@ -1,0 +1,27 @@
+name: Test build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up environment
+      shell: cmd
+      run: |
+        echo Setting up build environment
+        dir
+
+    - name: Run razzle.cmd
+      shell: cmd
+      working-directory: tools
+      run: |
+        razzle64.cmd free offline & build /cZP -M 4
