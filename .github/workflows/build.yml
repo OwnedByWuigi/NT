@@ -24,4 +24,4 @@ jobs:
       shell: cmd
       working-directory: tools
       run: |
-        razzle64.cmd free offline & build /cZP -M 4
+        razzle64.cmd free offline & D:\a\NT\NT\tools\amd64\build /cZP -M 4
