@@ -1,0 +1,6 @@
+DIRS=\
+    common  \
+    dtc     \
+    per     \
+    pro     \
+    srv     \
