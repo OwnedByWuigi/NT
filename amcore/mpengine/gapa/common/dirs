@@ -1,0 +1,4 @@
+DIRS=           \
+    externimpl  \
+    gapacommonlib\
+    reggae      \
